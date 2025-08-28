@@ -4,7 +4,7 @@ export const DailyCard = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-2 h-[187px] w-[80px] bg-[#20293A] rounded-2xl text-[#F2F5F9] font-['Outfit']">
       <p className="font-medium text-xs">9:00 AM</p>
-      <hr className="border-none bg-[#030616] h-[1px]"/>
+      <hr className="border-0 bg-[#030616] h-[2px] w-[64px]"/>
 
       <div className="flex flex-col justify-center items-center gap-[4px]">
         <img src={snowFlakeImg} alt="snowflake" className="h-9 w-9" />

@@ -1,3 +1,4 @@
+import { FiveDayCard } from "./components/5DayCard/FiveDayCard";
 import { DailyCard } from "./components/DailyCard/DailyCard";
 import { MainInfo } from "./components/MainInfo/MainInfo";
 import { SearchBar } from "./components/SearchBar/SearchBar";
@@ -9,6 +10,7 @@ export const App = () => {
 			<SearchBar />
 			<MainInfo />
       <DailyCard />
+      <FiveDayCard />
 		</div>
 	);
 };
