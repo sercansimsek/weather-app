@@ -1,12 +1,70 @@
-# React + Vite
+<h1 align="center">Weather App | devChallenges</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+   Solution for a challenge <a href="https://devchallenges.io/challenge/weather-app" target="_blank">Weather App</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+</div>
 
-Currently, two official plugins are available:
+<div align="center">
+  <h3>
+    <a href="https://sercansimsek.github.io/weather-app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/sercansimsek/weather-app">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/weather-app">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+- [Overview](#overview)
+- [What I learned](#what-i-learned)
+- [Useful resources](#useful-resources)
+- [Built with](#built-with)
+- [Features](#features)
+- [Contact](#contact)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Overview
+
+![screenshot](./src/assets/images/thumbnail.jpg)
+
+<!--
+Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+
+- What have you learned/improved?
+- Your wisdom? :)
+-->
+
+### What I learned
+
+<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+
+### Useful resources
+
+<!--
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+-->
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [React](https://reactjs.org/)
+
+- [Tailwind](https://tailwindcss.com/)
+
+## Features
+
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
+
+## Author
+
+- GitHub [@sercansimsek](https://{github.com/sercansimsek})
