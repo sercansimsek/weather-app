@@ -1,3 +1,4 @@
+import { DailyCard } from "./components/DailyCard/DailyCard";
 import { MainInfo } from "./components/MainInfo/MainInfo";
 import { SearchBar } from "./components/SearchBar/SearchBar";
 // import bcgImage from './assets/images/earth.png';
@@ -7,6 +8,7 @@ export const App = () => {
 		<div>
 			<SearchBar />
 			<MainInfo />
+      <DailyCard />
 		</div>
 	);
 };

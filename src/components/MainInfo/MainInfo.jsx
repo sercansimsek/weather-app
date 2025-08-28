@@ -3,7 +3,7 @@ import windImage from "../../assets/images/wind.png";
 
 export const MainInfo = () => {
 	return (
-		<div className="grid grid-cols-2 justify-center items-center gap-3 max-w-[364px] rounded-2xl bg-[#20293A] px-5 py-6 text-[#F2F5F9]">
+		<div className="grid grid-cols-2 justify-center items-center gap-3 max-w-[364px] rounded-2xl bg-[#20293A] px-5 py-6 text-[#F2F5F9] font-['Outfit']">
 			<div className=" font-semibold text-[64px]">-1&deg;</div>
 
 			<div className="flex flex-col text-end">

@@ -2,7 +2,7 @@ import searchIcon from "../../assets/images/Search.svg";
 
 export const SearchBar = () => {
 	return (
-		<div className="flex w-[364px] gap-10">
+		<div className="flex w-[364px] gap-10 font-['Outfit']">
 			<div className="flex gap-3 justify-center items-center bg-[#20293A] w-[240px] rounded-3xl text-[#F2F5F9] placeholder-[#F2F5F9]">
 				<img src={searchIcon} alt="search Icon" className="h-6 w-6" />
 				<input
