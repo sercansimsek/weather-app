@@ -3,11 +3,10 @@ import sunImage from '../../assets/images/01d.png';
 export const OtherCities = () => {
   return (
     <>
-      <div className='flex justify-start items-center font-medium text-xl text-[#F2F5F9] mb-5 font-["Outfit"]'>
-        Other large cities
-      </div>
-
-      <div className='gap-6 flex flex-col justify-center items-center'>
+      <div className="gap-6 flex flex-col justify-center items-center">
+        <div className='flex justify-start items-center font-medium text-xl text-[#F2F5F9] mb-[20px] font-["Outfit"]'>
+          Other large cities
+        </div>
         <div className='grid grid-cols-2 w-[364px] h-[118px] font-["Outfit"] p-5 text-[#F2F5F9] bg-[#20293A] rounded-2xl'>
           <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-1">
