@@ -7,7 +7,7 @@ import { SearchBar } from "./components/SearchBar/SearchBar";
 
 export const App = () => {
 	return (
-		<div>
+		<div className="grid grid-cols-1 gap-10 justify-center items-center bg-[url('../src/assets/images/earth.png')] object-cover bg-cover bg-no-repeat bg-[#030616] px-6 py-7">
 			<SearchBar />
 			<MainInfo />
       <DailyCard />
