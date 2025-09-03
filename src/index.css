@@ -1,1 +1,21 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-3xl: 1350px;
+}
+
+@layer base {
+  h1 {
+    @apply text-5xl font-bold text-[#F2F5F9] font-['Outfit'];
+  }
+}
+
+@layer components {
+  .dailyCard {
+    @apply flex-col gap-2 h-[187px] w-[80px] bg-[#20293A] rounded-2xl text-[#F2F5F9] font-['Outfit'];
+  }
+}
+
+@utility flexCenter {
+  @apply flex justify-center items-center;
+}
