@@ -13,7 +13,7 @@ export const FiveDayCard = () => {
 
           <div className="flex justify-center items-center gap-3">
             <p className="font-medium text-base">-1&deg;</p>
-            <div className="h-[6px] w-[130px] bg-[#030616] rounded-lg relative">
+            <div className="h-[6px] w-[130px] bg-[#030616] rounded-lg relative lg:w-[216px] xl:w-[340px]">
               <div className="h-[6px] w-[27px] bg-[#4E80EE] absolute left-5 rounded-lg"></div>
             </div>
             <p className="font-medium text-base">3&deg;</p>

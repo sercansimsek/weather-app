@@ -7,13 +7,13 @@ import { SearchBar } from './components/SearchBar/SearchBar';
 
 export const App = () => {
   return (
-    <div className="grid auto-cols-fr gap-10 bg-[url('../src/assets/images/earth.png')] object-cover bg-cover bg-no-repeat bg-[#030616] px-6 py-7 w-full min-h-screen sm:grid-cols-2">
-      <div className="sm:col-span-2">
+    <div className="grid grid-cols-1 gap-10 bg-[url('../src/assets/images/earth.png')] object-cover bg-cover bg-no-repeat bg-[#030616] px-6 py-7 w-full min-h-screen md:grid-cols-2">
+      <div className="md:col-span-2">
         <SearchBar />
       </div>
       <MainInfo />
       <DailyCard />
-      <div className='sm:order-last'>
+      <div className='md:order-last'>
         <FiveDayCard />
       </div>
       <OtherCities />
