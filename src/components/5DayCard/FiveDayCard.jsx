@@ -3,11 +3,11 @@ import darkClouds from '../../assets/images/04d.png';
 export const FiveDayCard = () => {
   return (
     <>
-      <div className="flex justify-center items-center gap-3 flex-wrap">
+      <div className="flex flex-col justify-center items-center gap-3 flex-wrap ">
         <div className=" flex justify-start items-center font-medium text-xl text-[#F2F5F9] mb-[20px] font-['Outfit']">
           5-day forecast
         </div>
-        <div className="flex justify-center items-center gap-6 bg-[#20293A] h-[60px] w-max rounded-2xl text-[#F2F5F9] font-['Outfit'] px-4 py-3">
+        <div className="flex justify-center items-center gap-6 bg-[#20293A] h-[60px] w-max rounded-2xl text-[#F2F5F9] font-['Outfit'] px-4 py-3 lg:w-fill lg:justify-start lg:gap-10">
           <p className="font-medium text-xl">Today</p>
           <img src={darkClouds} alt="dark clouds" className="h-9 w-9" />
 

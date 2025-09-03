@@ -4,7 +4,7 @@ export const OtherCities = () => {
   return (
     <>
       <div className="gap-6 flex flex-col justify-center items-center">
-        <div className='flex justify-start items-center font-medium text-xl text-[#F2F5F9] mb-[20px] font-["Outfit"]'>
+        <div className='flex justify-start items-center font-medium text-xl text-[#F2F5F9] mb-[8px] font-["Outfit"]'>
           Other large cities
         </div>
         <div className='grid grid-cols-2 w-[364px] h-[118px] font-["Outfit"] p-5 text-[#F2F5F9] bg-[#20293A] rounded-2xl'>
