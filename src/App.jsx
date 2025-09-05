@@ -11,7 +11,7 @@ const API_KEY = 'c36d433d08d3193950535e45b632cc5d';
 export const App = () => {
   const [weatherData, setWeatherData] = useState([]);
   const [errorMessage, setErrorMessage] = useState('');
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState('London');
 
   const BASE_URL = `https://api.openweathermap.org/data/2.5/forecast?q=${query}&appid=${API_KEY}&units=metric
 `;
@@ -25,27 +25,25 @@ export const App = () => {
   const loadWeatherData = async () => {
     try {
       const data = await getWeatherData();
-      setWeatherData(data);
+      setWeatherData(data.list);
     } catch (error) {
       setErrorMessage('Failed to fetch weather data');
       console.error(errorMessage, error);
-    } 
+    }
   };
 
   useEffect(() => {
     loadWeatherData();
-    setQuery('');
-    setErrorMessage('');
   }, [query]);
 
-  console.log(weatherData,);
+  console.log(weatherData);
 
   return (
     <div className="grid grid-cols-1 gap-10 bg-[url('../src/assets/images/earth.png')] object-cover bg-cover bg-no-repeat bg-[#030616] px-6 py-7 w-full min-h-screen md:grid-cols-2">
       <div className="md:col-span-2">
         <SearchBar query={query} onSetQuery={setQuery} />
       </div>
-      <MainInfo />
+      <MainInfo weatherData={weatherData} query={query}/>
       <DailyCard />
       <div className="md:order-last">
         <FiveDayCard />

@@ -1,13 +1,21 @@
 import searchIcon from '../../assets/images/Search.svg';
 
 export const SearchBar = ({ query, onSetQuery }) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSetQuery('');
+  };
   return (
     <div className="flex gap-10 font-['Outfit'] justify-between items-center w-full">
-      <div className="flex gap-3 justify-center items-center bg-[#20293A] w-[240px] rounded-3xl text-[#F2F5F9] placeholder-[#F2F5F9] p-2">
+      <form
+        onSubmit={handleSubmit}
+        className="flex gap-3 justify-center items-center bg-[#20293A] w-[240px] rounded-3xl text-[#F2F5F9] placeholder-[#F2F5F9] p-2"
+      >
         <img
           src={searchIcon}
           alt="search Icon"
           className="h-6 w-6 cursor-pointer"
+          onClick={handleSubmit}
         />
         <input
           type="text"
@@ -16,7 +24,7 @@ export const SearchBar = ({ query, onSetQuery }) => {
           value={query}
           onChange={(e) => onSetQuery(e.target.value)}
         />
-      </div>
+      </form>
 
       <div>
         <div className="flex items-center justify-between h-[40px] w-[76px] bg-[#20293A] rounded-3xl p-1">
